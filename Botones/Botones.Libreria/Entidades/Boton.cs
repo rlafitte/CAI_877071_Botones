@@ -8,8 +8,31 @@ namespace Botones.Libreria.Entidades
 {
     public class Boton
     {
-        int _id;
-        string _descripcion;
+        private int _id;
+        private string _descripcion;
+
+        public int Id
+        {
+            get
+            {
+                return this._id;
+            }
+            set
+            {
+                this._id = value;
+            }
+        }
+        public string Descripcion
+        {
+            get
+            {
+                return this._descripcion;
+            }
+            set
+            {
+                this._descripcion = value;
+            }
+        }
 
         public Boton(int id)
         {
