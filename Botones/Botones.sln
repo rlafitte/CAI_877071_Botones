@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botones.Consola", "Botones.Consola\Botones.Consola.csproj", "{53BC4D6A-7EF1-4DB1-B839-2A3D0DC0E670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53BC4D6A-7EF1-4DB1-B839-2A3D0DC0E670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BC4D6A-7EF1-4DB1-B839-2A3D0DC0E670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BC4D6A-7EF1-4DB1-B839-2A3D0DC0E670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BC4D6A-7EF1-4DB1-B839-2A3D0DC0E670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {060B481D-E8F8-46A5-A5B9-8B3A0B698496}
+	EndGlobalSection
+EndGlobal
