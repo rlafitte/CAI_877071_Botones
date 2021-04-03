@@ -42,7 +42,6 @@ namespace Botones.Consola
                 "4 - Listar botones" + Environment.NewLine +
                 "5 - Salir" + Environment.NewLine
                 );
-                //ListarBotones();
                 _resp = Console.ReadLine();
                 try
                 {
@@ -50,22 +49,40 @@ namespace Botones.Consola
                     Ctrl.SeleccionarOpcion(i_resp);
                     switch (i_resp)
                     {
-                        case 1:
+                        case 1: //Agregar botón
                                 Console.WriteLine("Ingrese el ID del botón a agregar: ");
-                                id = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Ingrese la descripción a agregar: ");
-                                desc = Console.ReadLine();
-                                Ctrl.AgregarBoton(id, desc);
-                                break;
+                            try
+                            {
+                            id = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("Ingrese la descripción a agregar: ");
+                                try
+                                {
+                                  desc = Console.ReadLine();
+                                  Ctrl.AgregarBoton(id, desc);
+                                }
+                                catch
+                                {
 
+                                }  
+                            }
+                            catch
+                            {
+                                Console.WriteLine("El valor no es numérico.");
+                            }
+                            break;
+
+                        case 2: //Eliminar botón
+                        case 3: //Mostrar descripción
+                        case 4: //Listar botones
+                            Ctrl.ListarBotones();
+                            break;
+                        case 5: //Salir
                         default:
                                 break;
                             
                     }
                     
-                    //{
-                    //    Ctrl.AgregarBoton();
-                    //}              
+            
                 }
                 catch (ValorInvalidoEx vin)
                 {

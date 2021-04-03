@@ -10,16 +10,11 @@ namespace Botones.Libreria.Entidades
     public class Controlador
     {
         int _id;
-        List<Boton> _listaBotones;
+        List<Boton> _listaBotones = new List<Boton>();
 
         public Controlador()
         {
 
-        }
-        public Controlador(int id)
-        {
-            _id = id;
-            _listaBotones = new List<Boton>();
         }
         //1 - Agregar botón
         public void AgregarBoton(int id, string descripcion)
@@ -34,8 +29,10 @@ namespace Botones.Libreria.Entidades
         {
             int id;
             string desc;
+            string msg = "";
             foreach(Boton B in _listaBotones)
             {
+                
                 id = B.Id;
                 desc = B.Descripcion;
                 
