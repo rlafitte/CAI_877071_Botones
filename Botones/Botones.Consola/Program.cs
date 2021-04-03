@@ -27,13 +27,10 @@ namespace Botones.Consola
             int i_resp;
             int id;
             string desc;
+            string msg = "";
+            Controlador Ctrl = new Controlador();
             while (flag)
             {
-
-
-            List<Controlador> Botones = new List<Controlador>();
-            
-            Controlador Ctrl = new Controlador();
 
             Console.WriteLine("Por favor ingrese la opción deseada: " + Environment.NewLine +
                 "1 - Agregar botón" + Environment.NewLine +
@@ -74,7 +71,9 @@ namespace Botones.Consola
                         case 2: //Eliminar botón
                         case 3: //Mostrar descripción
                         case 4: //Listar botones
-                            Ctrl.ListarBotones();
+
+                            Ctrl.ListarBotones(out msg);
+                            Console.WriteLine(msg);
                             break;
                         case 5: //Salir
                         default:
