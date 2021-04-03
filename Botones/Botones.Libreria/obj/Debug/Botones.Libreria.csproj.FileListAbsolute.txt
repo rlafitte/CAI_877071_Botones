@@ -1,0 +1,6 @@
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\bin\Debug\Botones.Libreria.dll
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\bin\Debug\Botones.Libreria.pdb
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\obj\Debug\Botones.Libreria.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\obj\Debug\Botones.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\obj\Debug\Botones.Libreria.dll
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Libreria\obj\Debug\Botones.Libreria.pdb

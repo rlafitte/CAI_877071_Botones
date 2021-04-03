@@ -1,0 +1,10 @@
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\bin\Debug\Botones.Consola.exe.config
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\bin\Debug\Botones.Consola.exe
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\bin\Debug\Botones.Consola.pdb
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\bin\Debug\Botones.Libreria.dll
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\bin\Debug\Botones.Libreria.pdb
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\obj\Debug\Botones.Consola.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\obj\Debug\Botones.Consola.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\obj\Debug\Botones.Consola.csproj.CopyComplete
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\obj\Debug\Botones.Consola.exe
+C:\Users\renar\Desktop\CAI\Cuarta clase\CAI_877071_Botones\Botones\Botones.Consola\obj\Debug\Botones.Consola.pdb
