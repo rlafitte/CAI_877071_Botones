@@ -75,12 +75,26 @@ namespace Botones.Consola
                                 id = Convert.ToInt32(Console.ReadLine());
 
                                 Ctrl.EliminarBotón(id, out msg);
+                                Console.Write(msg);
                             }
                             catch
                             {
                             }
                             break;
                         case 3: //Mostrar descripción
+
+                            Console.WriteLine("Ingrese el ID del botón a mostrar: ");
+                            try
+                            {
+                                id = Convert.ToInt32(Console.ReadLine());
+
+                                Ctrl.MostrarDescripción(id, out msg);
+                                Console.Write(msg);
+                            }
+                            catch
+                            {
+                            }
+                            break;
                         case 4: //Listar botones
 
                             Ctrl.ListarBotones(out msg);
@@ -104,8 +118,10 @@ namespace Botones.Consola
                 }
 
             Console.WriteLine("¿Desea salir? S/N");
+                Console.ReadLine();
+            //} while (Console.ReadKey().Key != ConsoleKey.X) ;
             //flag = Console.ReadLine();
-            }
+        }
         }
         }
 }

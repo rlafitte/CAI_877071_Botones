@@ -34,19 +34,43 @@ namespace Botones.Libreria.Entidades
                 try
                 {
                     _listaBotones.Remove(BorrarId);
+                    msg = "El botón " + BorrarId.Id + " ha sido eliminado.";
                 }
                 catch
                 {
-                    msg = "Elemento no borrado";
+                    msg = "Elemento no borrado" + Environment.NewLine;
                 }
             }
             catch
             {
-                msg = "ID no encontrado";
+                msg = "ID no encontrado" + Environment.NewLine;
             }
             return;
         }
         //3 - Mostrar descripción
+        public void MostrarDescripción(int id, out string msg)
+        {
+            msg = "";
+            Boton Desc;
+            try
+            {
+                Desc = _listaBotones.FirstOrDefault(i => i.Id == id);
+                try
+                {
+                msg = Desc.Descripcion;
+                }
+                catch
+                {
+                msg = "ID no encontrado" + Environment.NewLine;
+
+                }
+            }
+            catch
+            {
+                msg = "ID no encontrado" + Environment.NewLine;
+            }
+            return;
+        }
         //4 - Listar botones
         public void ListarBotones(out string msg)
         {
@@ -57,7 +81,8 @@ namespace Botones.Libreria.Entidades
             }
         }
 
-        //5 - Salir        
+        //5 - Salir
+        //public bool
         //public void Salir
 
         //{
