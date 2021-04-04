@@ -24,6 +24,28 @@ namespace Botones.Libreria.Entidades
             
         }
         //2 - Eliminar botón
+        public void EliminarBotón(int id, out string msg)
+        {
+            msg = "";
+            Boton BorrarId;
+            try
+            {
+            BorrarId = _listaBotones.FirstOrDefault(i => i.Id == id);
+                try
+                {
+                    _listaBotones.Remove(BorrarId);
+                }
+                catch
+                {
+                    msg = "Elemento no borrado";
+                }
+            }
+            catch
+            {
+                msg = "ID no encontrado";
+            }
+            return;
+        }
         //3 - Mostrar descripción
         //4 - Listar botones
         public void ListarBotones(out string msg)

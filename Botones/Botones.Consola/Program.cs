@@ -69,6 +69,17 @@ namespace Botones.Consola
                             break;
 
                         case 2: //Eliminar botón
+                            Console.WriteLine("Ingrese el ID del botón a eliminar: ");
+                            try
+                            {
+                                id = Convert.ToInt32(Console.ReadLine());
+
+                                Ctrl.EliminarBotón(id, out msg);
+                            }
+                            catch
+                            {
+                            }
+                            break;
                         case 3: //Mostrar descripción
                         case 4: //Listar botones
 
