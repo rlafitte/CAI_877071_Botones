@@ -83,7 +83,20 @@ namespace Botones.Libreria.Entidades
 
         //5 - Salir
         //public bool
-        //public void Salir
+        public void Salir(string tecla, out bool flag)
+        {
+            //tecla = Console.ReadKey().Key;
+            flag = true;
+            if(tecla == "S")
+            {
+                flag = false;
+            }
+            else if(tecla == 5.ToString())
+            {
+                flag = false;
+            }
+            
+        }
 
         //{
         public void SeleccionarOpcion(int id) 

@@ -101,6 +101,10 @@ namespace Botones.Consola
                             Console.WriteLine(msg);
                             break;
                         case 5: //Salir
+                            Ctrl.Salir("5", out flag);
+                        Console.WriteLine("Gracias por utilizar el programa. Presione cualquier tecla para salir.");
+                            Console.ReadLine();
+                            break;
                         default:
                                 break;
                             
@@ -117,8 +121,17 @@ namespace Botones.Consola
                     Console.WriteLine("Ocurrió un error inesperado.");
                 }
 
-            Console.WriteLine("¿Desea salir? S/N");
-                Console.ReadLine();
+            if (flag)
+                {
+                Console.WriteLine("¿Desea salir? S/N");
+            Ctrl.Salir(Console.ReadLine(), out flag);
+                    if (!flag)
+                    {
+                        Console.WriteLine("Gracias por utilizar el programa. Presione cualquier tecla para salir.");
+                        Console.ReadLine();
+                    }
+
+                }
             //} while (Console.ReadKey().Key != ConsoleKey.X) ;
             //flag = Console.ReadLine();
         }
